@@ -1,0 +1,13 @@
+_CFD_PARAMETERS_:
+  case_parameters:
+    numerical_scheme: "MUSCL"
+    limiter: "VANLEER"
+    number_of_points_x: 101
+    number_of_points_y: 101
+    gamma: 1.4
+    domain_length_x: 1.0
+    domain_length_y: 1.0
+    end_time: 1.0
+    cfl: 0.01
+    time: 0.0
+    time_step: 0

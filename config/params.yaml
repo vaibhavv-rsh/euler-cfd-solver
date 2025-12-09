@@ -1,0 +1,14 @@
+_CFD_PARAMETERS_:
+
+  case_parameters:
+    numerical_scheme: "MUSCL"
+    limiter: "NONE"
+    number_of_points: 101
+    gamma: 1.4
+    domain_length: 1.0
+    end_time: 0.2
+    cfl: 0.1
+    time: 0.0
+    time_step: 0
+
+
